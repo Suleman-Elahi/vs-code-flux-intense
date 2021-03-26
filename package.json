@@ -1,0 +1,22 @@
+{
+    "name": "vs-code-flux-intense",
+    "displayName": "VS Code Flux Intense",
+    "description": "A VS Code theme inspired by the effect created by f.lux to reduce eye strain.",
+    "publisher": "suleman-el",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VS Code Flux Intense",
+                "uiTheme": "vs",
+                "path": "./themes/VS Code Flux Intense-color-theme.json"
+            }
+        ]
+    }
+}
