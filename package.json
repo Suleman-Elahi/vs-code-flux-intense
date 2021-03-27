@@ -1,22 +1,38 @@
 {
-    "name": "vs-code-flux-intense",
-    "displayName": "VS Code Flux Intense",
-    "description": "A VS Code theme inspired by the effect created by f.lux to reduce eye strain.",
-    "publisher": "suleman-el",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.46.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
+  "name": "vs-code-flux-intense",
+  "displayName": "VS Code Flux Intense",
+  "version": "0.0.1",
+  "publisher": "suleman-el",
+  "description": "A VS Code theme inspired by the effect created by f.lux to reduce eye strain.",
+  "author": {
+    "name": "Suleman Elahi"
+  },
+  "categories": ["Themes"],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#f3096ff2",
+    "theme": "light"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Suleman-Elahi/vs-code-flux-intense/issues",
+    "email": "sul007@outlook.com"
+  },
+"contributes": {
         "themes": [
             {
                 "label": "VS Code Flux Intense",
-                "uiTheme": "vs",
+                "uiTheme": "vs-light",
                 "path": "./themes/VS Code Flux Intense-color-theme.json"
             }
         ]
-    }
+    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Suleman-Elahi/vs-code-flux-intense.git"
+  },
+  "homepage": "https://github.com/Suleman-Elahi/vs-code-flux-intense/README.md"
 }
