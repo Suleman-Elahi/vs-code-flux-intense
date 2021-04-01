@@ -25,7 +25,7 @@
         "themes": [
             {
                 "label": "VS Code Flux Intense",
-                "uiTheme": "vs-light",
+                "uiTheme": "vs-dark",
                 "path": "./themes/vs-code-flux-intense.json"
             }
         ]
